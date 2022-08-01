@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator </title>
+        <script  type="text/javascript" src="calculatorprog.js"></script>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    
+    <body>
+      
+      <div class="navbar">
+      <div class="navbarbuttons">  
+      <a href="Home.html"><img class="home" src="home.svg" style="width:30px;height: 30px;"></a>
+    </div>
+  </div>
+       <div class="head"><h1>CALCULATOR</h1></div> 
+        
+        <br>
+        <form name="calc">     <!--form is to provide input from user into html-->
+        <label>Enter the first number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="number" name="number1" id="num1"> 
+        <br>
+        <br>
+        <label>Enter the second number</label>
+        <input type="number" name="number2" id="num2">
+        <br>
+        <br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="optr" type="button" value="+" onclick="SUM()"  >&nbsp;&nbsp;
+      <input class="optr" type="button" value="-" onclick="SUB()"  > &nbsp;&nbsp;
+      <input class="optr" type="button" value="*" onclick="MUL()" >&nbsp;&nbsp;
+      <input class="optr" type="button" value="/" onclick="DIV()" >&nbsp;&nbsp;
+      <input class="optr" type="button" value="avg" onclick="AVG()" >&nbsp;&nbsp;
+      <input class="optr" type="button" value="clear" onclick="CLR()" >&nbsp;&nbsp;
+      <br>
+      
+      <label>---------------------------------------------------------------------</label>
+      <br>
+      <br>
+      <label>Answer</label>
+      <input type="text" name="answer" >
+    </div>
+
+
+
+    </form>
+    </body>
+
+</html>
